@@ -8,6 +8,6 @@ public class HomeController {
     
     @GetMapping("/")
     public String home() {
-        return "Hello Subiksha from Azure App Service!!";
+        return "Hello Subiksha from Azure App Service [in the Staging Slot]!!";
     }
 }
